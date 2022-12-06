@@ -3,7 +3,7 @@
   justify-content: space-between;
   background-color: black;
   color: white;
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   width: 100%;
   z-index: 1;
@@ -12,6 +12,10 @@
 }
 .nav1 img {
   margin-left: 40px;
+}
+
+.nav-head::after {
+  background-color: #ffe600;
 }
 
 .text-white {
@@ -30,7 +34,6 @@
   opacity: 0;
   height: 2px;
   width: 100%;
-  background-color: #ffe600;
   position: absolute;
   bottom: 0;
   left: 0;

@@ -1,14 +1,13 @@
 import "./home.css";
 import React from "react";
 
-import bgimg from "../../src/img/p1.jpg";
-import { Container } from "react-bootstrap";
+import bgimg from "../../img/p1.jpg";
 
 function Home() {
   return (
     <>
-      <Container className="container">
-        {/*===============| Home Section |==================*/}
+      {/*===============| Home Section |==================*/}
+      <div>
         <div className="home-image">
           <img src={bgimg} />
         </div>
@@ -29,7 +28,7 @@ function Home() {
             ad.Lorem ipsum dolor sit amet <br />
           </p>
         </div>
-      </Container>
+      </div>
       {/*===============| Home Section Ends |==================*/}
     </>
   );

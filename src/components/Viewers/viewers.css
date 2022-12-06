@@ -6,9 +6,8 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.bg-image {
-  object-fit: fit-content;
-  background-size: cover;
+.bg-image img {
+  position: absolute;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -16,6 +15,7 @@
 
 /*===================| Heading & Underline |================ */
 .heading h1 {
+  position: absolute;
   color: #ffe600;
   display: flex;
   align-items: center;
@@ -35,6 +35,7 @@
 /*==================| Card Style |================*/
 .text-center {
   background-color: hsla(1, 1%, 1%, 0.4);
+  cursor: pointer;
 }
 
 .tc-box {

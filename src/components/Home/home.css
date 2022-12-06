@@ -1,16 +1,17 @@
 .home-image img {
   width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: fit-content;
-  background-size: cover;
+  height: 100vh;
+  /* position: absolute; */
+  position: relative;
+  /* object-fit: fit-content;
+  background-size: cover; */
   background-repeat: no-repeat;
-  left: 0;
+  /* left: 0; */
 }
 
-.container .home-image img {
+/* .home-image img {
   background-color: hsla(1, 1%, 1%, 0.4);
-}
+} */
 
 .home-data {
   position: absolute;
