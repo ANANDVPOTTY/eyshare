@@ -22,10 +22,10 @@ function Services() {
       {/* ------------------------------1----------------------------- */}
 
       <div className="d-flex justify-content-md-center mt-3">
-        <MDBCard style={{ width: "18rem" }} className="me-5 card-ey">
+        <MDBCard style={{ width: "22rem" }} className="me-5 card-ey">
           <MDBCardImage
-            src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
-            width={358}
+            src={process.env.PUBLIC_URL + "/images/card-img-1.jpg"}
+            width={370}
             height={255}
             className="square bg-primary rounded"
             alt="..."
@@ -43,7 +43,7 @@ function Services() {
 
         {/* --------------------------------------2------------------------------------- */}
 
-        <MDBCard style={{ width: "18rem" }} className="ms-5 card-ey">
+        <MDBCard style={{ width: "22rem" }} className="ms-5 card-ey">
           <MDBCardImage
             src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
             width={358}

@@ -15,48 +15,114 @@
 
 /*===================| Heading & Underline |================ */
 .heading h1 {
-  position: absolute;
+  position: relative;
   color: #ffe600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1rem;
-  font-size: 1rem;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* margin-top: 1rem; */
+  /* font-size: 1rem; */
 }
 
-.un-line {
-  margin-top: 1.5rem;
-  background-color: #ffe600;
-  padding: 1.5px;
-  color: #ffe600;
+hr .u-line {
+  /* border-top: 1px solid #ff0000;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem; */
+
+  /* width: 70%;
+  background: #ffe600;
+  border: none;
+  height: 5.5px; */
 }
+
+.u-line::after {
+  content: "";
+  height: 3px;
+  width: 75%;
+  margin-top: 40px;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* left: 0; */
+  display: flex;
+  text-align: center;
+
+  background-color: #ffe600;
+}
+
 /*===================| Heading & Underline Ends Here |================ */
 
 /*==================| Card Style |================*/
-.text-center {
-  background-color: hsla(1, 1%, 1%, 0.4);
-  cursor: pointer;
-}
 
 .tc-box {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 5rem 5rem;
+  padding: 2rem 1rem 3rem 1rem;
   position: relative;
   border: 3px solid #ffe600;
+  background: hsla(0, 0%, 0%, 0.6);
 }
 
-.text-white {
-  font-size: 15px;
+/* name style for all six */
+.names {
+  color: #ffe600;
 }
-
-.text-warning {
-  font-size: 13px;
-}
+/* name style for all six ends here */
 
 .img1 img {
   border: 5px solid #ffe600;
+  margin-right: 5rem;
+  margin-top: 5px;
 }
+.info1 {
+  margin-right: 5rem;
+}
+
+.img2 img {
+  border: 5px solid #ffe600;
+  margin-right: 6rem;
+  margin-top: 1px;
+}
+.info2 {
+  margin-right: 5rem;
+}
+
+.img3 img {
+  border: 5px solid #ffe600;
+  margin-right: 6rem;
+  margin-top: 1px;
+}
+.info3 {
+  margin-right: 5rem;
+}
+
+.img4 img {
+  border: 5px solid #ffe600;
+  margin-right: 6rem;
+  margin-top: 1px;
+}
+.info4 {
+  margin-right: 5rem;
+}
+
+.img5 img {
+  border: 5px solid #ffe600;
+  margin-right: 6rem;
+  margin-top: 1px;
+}
+.info5 {
+  margin-right: 5rem;
+}
+
+.img6 img {
+  border: 5px solid #ffe600;
+  margin-right: 6rem;
+  margin-top: 1px;
+}
+.info6 {
+  margin-right: 5rem;
+}
+
 /*==================| Card Style Ends |================*/

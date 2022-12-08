@@ -12,117 +12,187 @@ function Viewers() {
         <div className="bg-image">
           <img src={bgimgv} alt="..." />
         </div>
+
         <div className="heading">
-          <h1 className="fw-bolder" style={{ fontSize: 35 }}>
+          <h1
+            className="fw-bolder u-line"
+            style={{
+              fontSize: 35,
+              marginLeft: 550,
+              marginTop: 5,
+              padding: 40,
+            }}
+          >
             GLINT Executives
           </h1>
+          <hr className="" />
         </div>
-        <hr className="un-line" />
 
         {/*==========================================================================*/}
-        <div>
-          <MDBContainer>
-            <MDBRow className="text-center">
-              <div className="tc-box">
-                {/*-----------------------------------------1----------------------------------------*/}
-                <MDBCol lg="1" className="img-1 mb-5 mb-md-0">
-                  <div className="d-flex justify-content-center align-items-center img1">
-                    <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-                      className="rounded-circle shadow-1-strong"
-                      width="150"
-                      height="150"
-                    />
-                  </div>
-                  <h5 className="text-white mb-1 mt-2 ms-0 text-nowrap text-capitalize">
-                    <small>Anheloh Asynhmki</small>
-                  </h5>
-                  <h6 className="text-warning mb-1">UX Designer</h6>
-                </MDBCol>
 
-                {/*-------------------------------------------2--------------------------------------*/}
-                <MDBCol lg="2" className="img-2 mb-5 mb-md-0">
-                  <div className="d-flex justify-content-center align-items-center img1">
-                    <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
-                      className="rounded-circle shadow-1-strong"
-                      width="100"
-                      height="100"
-                    />
-                  </div>
-                  <h5 className="text-white mb-1 mt-3 ms-0 text-nowrap  text-capitalize">
-                    <small>Anheloh Asynhmki</small>
+        <MDBContainer>
+          <MDBRow className="text-center mt-4">
+            <div className="tc-box">
+              {/*-----------------------------------------| Item-1 |----------------------------------------*/}
+              <MDBCol lg="1" className="mb-md-0">
+                <div className="d-flex justify-content-center align-items-center img1">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                    className="rounded-circle shadow-1-strong"
+                    width="160"
+                    height="160"
+                  />
+                </div>
+                <div className="info1">
+                  <h5
+                    className="d-flex justify-content-center align-items-center ml-5 mb-1 mt-2 ms-0 text-nowrap names"
+                    style={{ fontSize: 17 }}
+                  >
+                    Anheloh Asynhmki
                   </h5>
-                  <h6 className="text-warning mb-1">Web Developer</h6>
-                </MDBCol>
+                  <h6
+                    className="d-flex justify-content-center align-items-center text-white ml-5 mb-1 mt-1 ms-0 text-nowrap"
+                    style={{ fontSize: 12 }}
+                  >
+                    UX Designer
+                  </h6>
+                </div>
+              </MDBCol>
 
-                {/*--------------------------------------------3-------------------------------------*/}
-                <MDBCol lg="1" className="mb-5 mb-md-0">
-                  <div className="d-flex justify-content-center align-items-center img1">
-                    <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
-                      className="rounded-circle shadow-1-strong"
-                      width="100"
-                      height="100"
-                    />
-                  </div>
-                  <h5 className="text-white mb-1 mt-3 ms-0 text-nowrap text-capitalize">
-                    Maria
-                  </h5>
-                  <h6 className="text-warning mb-1">Photographer</h6>
-                </MDBCol>
+              {/*-------------------------------------------| Item-2 |--------------------------------------*/}
+              <MDBCol lg="1" className="mb-md-0">
+                <div className="d-flex justify-content-center align-items-center img2">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
+                    className="rounded-circle shadow-1-strong"
+                    width="120"
+                    height="120"
+                  />
+                </div>
 
-                {/*----------------------------------------------4-----------------------------------*/}
-                <MDBCol lg="2" className="mb-5 mb-md-0">
-                  <div className="d-flex justify-content-center align-items-center img1">
-                    <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp"
-                      className="rounded-circle shadow-1-strong"
-                      width="100"
-                      height="100"
-                    />
-                  </div>
-                  <h5 className="text-white mb-1 mt-3 ms-0 text-nowrap  text-capitalize">
-                    John Doe
+                <div className="info2">
+                  <h5
+                    className="d-flex justify-content-center align-items-center ml-5 mb-1 mt-2 ms-0 text-nowrap names"
+                    style={{ fontSize: 17 }}
+                  >
+                    Anheloh Asynhmki
                   </h5>
-                  <h6 className="text-warning mb-1">UX Designer</h6>
-                </MDBCol>
+                  <h6
+                    className="d-flex justify-content-center align-items-center text-white ml-5 mb-1 mt-2 ms-0 text-nowrap "
+                    style={{ fontSize: 12 }}
+                  >
+                    Web Developer
+                  </h6>
+                </div>
+              </MDBCol>
 
-                {/*------------------------------------------------5---------------------------------*/}
-                <MDBCol lg="1" className="mb-5 mb-md-0">
-                  <div className="d-flex justify-content-center align-items-center img1">
-                    <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp"
-                      className="rounded-circle shadow-1-strong"
-                      width="100"
-                      height="100"
-                    />
-                  </div>
-                  <h5 className="text-white mb-1 mt-3 ms-0 text-nowrap  text-capitalize">
-                    Alex
+              {/*--------------------------------------------| Item-3 |-------------------------------------*/}
+              <MDBCol lg="1" className="mb-md-0">
+                <div className="d-flex justify-content-center align-items-center img3">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                    className="rounded-circle shadow-1-strong"
+                    width="120"
+                    height="120"
+                  />
+                </div>
+                <div className="info3">
+                  <h5
+                    className="d-flex justify-content-center align-items-center ml-5 mb-1 mt-2 ms-0 text-nowrap names"
+                    style={{ fontSize: 17 }}
+                  >
+                    Anheloh Asynhmki
                   </h5>
-                  <h6 className="text-warning mb-1">Web Developer</h6>
-                </MDBCol>
+                  <h6
+                    className="d-flex justify-content-center align-items-center text-white ml-5 mb-1 mt-2 ms-0 text-nowrap"
+                    style={{ fontSize: 12 }}
+                  >
+                    Photographer
+                  </h6>
+                </div>
+              </MDBCol>
 
-                {/*--------------------------------------------------6-------------------------------*/}
-                <MDBCol lg="2" className="mb-5 mb-md-0 text-capitalize">
-                  <div className="d-flex justify-content-center align-items-center img1">
-                    <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp"
-                      className="rounded-circle shadow-1-strong"
-                      width="100"
-                      height="100"
-                    />
-                  </div>
-                  <h5 className="text-white mb-1 mt-3 ms-0 text-nowrap text-capitalize">
-                    Maria Kate
+              {/*----------------------------------------------| Item-4 |-----------------------------------*/}
+              <MDBCol lg="1" className="mb-md-0">
+                <div className="d-flex justify-content-center align-items-center img4">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp"
+                    className="rounded-circle shadow-1-strong"
+                    width="120"
+                    height="120"
+                  />
+                </div>
+                <div className="info4">
+                  <h5
+                    className=" d-flex justify-content-center align-items-center ml-5 mb-1 mt-2 ms-0 text-nowrap names"
+                    style={{ fontSize: 17 }}
+                  >
+                    Anheloh Asynhmki
                   </h5>
-                  <h6 className="text-warning mb-1">Photographer</h6>
-                </MDBCol>
-              </div>
-            </MDBRow>
-          </MDBContainer>
-        </div>
+                  <h6
+                    className=" d-flex justify-content-center align-items-center text-white ml-5 mb-1 mt-2 ms-0 text-nowrap"
+                    style={{ fontSize: 12 }}
+                  >
+                    Web Developer
+                  </h6>
+                </div>
+              </MDBCol>
+
+              {/*------------------------------------------------| Item-5 |---------------------------------*/}
+              <MDBCol lg="1" className="mb-md-0">
+                <div className="d-flex justify-content-center align-items-center img5">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp"
+                    className="rounded-circle shadow-1-strong"
+                    width="120"
+                    height="120"
+                  />
+                </div>
+
+                <div className="info5">
+                  <h5
+                    className=" d-flex justify-content-center align-items-center ml-5 mb-1 mt-2 ms-0 text-nowrap names"
+                    style={{ fontSize: 17 }}
+                  >
+                    Anheloh Asynhmki
+                  </h5>
+                  <h6
+                    className="d-flex justify-content-center align-items-center text-white ml-5 mb-1 mt-2 ms-0 text-nowrap"
+                    style={{ fontSize: 12 }}
+                  >
+                    Web Developer
+                  </h6>
+                </div>
+              </MDBCol>
+
+              {/*--------------------------------------------------| Item-6 |-------------------------------*/}
+              <MDBCol lg="1" className="mb-md-0 text-capitalize">
+                <div className="d-flex justify-content-center align-items-center img6">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp"
+                    className="rounded-circle shadow-1-strong"
+                    width="120"
+                    height="120"
+                  />
+                </div>
+                <div className="info6">
+                  <h5
+                    className=" d-flex justify-content-center align-items-center ml-5 mb-1 mt-2 ms-0 text-nowrap names"
+                    style={{ fontSize: 17 }}
+                  >
+                    Anheloh Asynhmki
+                  </h5>
+                  <h6
+                    className="d-flex justify-content-center align-items-center text-white ml-5 mb-1 mt-2 ms-0 text-nowrap"
+                    style={{ fontSize: 12 }}
+                  >
+                    Web Developer
+                  </h6>
+                </div>
+              </MDBCol>
+            </div>
+          </MDBRow>
+        </MDBContainer>
       </section>
     </>
   );
