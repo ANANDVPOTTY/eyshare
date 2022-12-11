@@ -30,7 +30,7 @@ function Viewers() {
 
         {/*==========================================================================*/}
 
-        <MDBContainer>
+        <MDBContainer className="align-items-center justify-content-center">
           <MDBRow className="text-center mt-4">
             <div className="tc-box">
               {/*-----------------------------------------| Item-1 |----------------------------------------*/}
@@ -173,6 +173,7 @@ function Viewers() {
                     className="rounded-circle shadow-1-strong"
                     width="120"
                     height="120"
+                    style={{ fontSize: 17 }}
                   />
                 </div>
                 <div className="info6">
