@@ -16,7 +16,7 @@ function App() {
       <Services />
       <LMS />
       <LFCS />
-      <Viewers />
+      {/* <Viewers /> */}
     </>
   );
 }
