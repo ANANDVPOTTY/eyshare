@@ -19,7 +19,7 @@ function Navbar1() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="text-white nav-head" href="#seervices">
+              <Nav.Link className="text-white nav-head" href="#services">
                 Services
               </Nav.Link>
             </Nav.Item>

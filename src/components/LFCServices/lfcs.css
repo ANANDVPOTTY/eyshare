@@ -1,0 +1,36 @@
+.lfcs {
+  padding-bottom: 5rem;
+}
+
+.section-heading > h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.fig-heading {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.Lfcs-caption {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: justify;
+  /* width: 75%; */
+  /* margin-top: 90px; */
+  /* margin-top: 10vw; */
+  /* margin-left: 50px; */
+}
+
+.lfcs-img img {
+  /* width: 500px; */
+  height: 350px;
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+
+.lfcs-img img:hover {
+  transform: scale(1.05);
+}

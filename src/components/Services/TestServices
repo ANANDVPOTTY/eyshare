@@ -1,0 +1,115 @@
+// import "./testservices.css";
+// import React from "react";
+// import Figure from "react-bootstrap/Figure";
+// import Container from "react-bootstrap/Container";
+// import { Card } from "react-bootstrap";
+
+// import {
+//   MDBCard,
+//   MDBCardBody,
+//   MDBCardTitle,
+//   MDBCardText,
+//   MDBCardImage,
+// } from "mdb-react-ui-kit";
+
+function Services() {
+  return (
+    <>
+      {/*===============| Services Section |==================*/}
+
+      {/* react bootstrap */}
+      {/* <Container>
+        <Card.Text className="section-heading  mt-4 mb-4">
+          <h1 className="fw-bolder h1">Services</h1>
+        </Card.Text> */}
+
+      {/* -------------------------------------| Card-1 |--------------------------------------- */}
+      {/* <div className="d-flex justify-content-center ms-5 mb-5 py-2">
+          <Figure className="">
+            <Figure.Image
+              className="card-ey"
+              width={400}
+              height={255}
+              alt="services-img"
+              src={process.env.PUBLIC_URL + "/images/card-img-1.jpg"}
+            />
+            <Card.Title className="sub-heading mt-4 d-flex justify-content-md-center">
+              Legal Management Services
+            </Card.Title>
+            <Card.Title className="card-para mt-3 d-flex justify-content-md-center">
+              Nulla vitae elit libero, a pharetra augue <br />
+              interdum. Nulla vitaeelit libero, a pharetra <br />
+              mollis interdum. Nulla vitae elit mollis <br />
+            </Card.Title>
+          </Figure> */}
+
+      {/* ------------------------------------| Card-2 |--------------------------------------- */}
+      {/* <Figure className="mx-5">
+            <Figure.Image
+              className="card-ey"
+              width={400}
+              height={255}
+              alt="services-img"
+              src={process.env.PUBLIC_URL + "/images/card-img-1.jpg"}
+            />
+            <Card.Title className="sub-heading mt-4 d-flex justify-content-md-center">
+              Legal Function Consulting
+            </Card.Title>
+            <Card.Title className="card-para mt-3 d-flex justify-content-md-center">
+              Nulla vitae elit libero, a pharetra augue <br />
+              interdum. Nulla vitaeelit libero, a pharetra <br />
+              mollis interdum. Nulla vitae elit mollis <br />
+            </Card.Title>
+          </Figure>
+        </div>
+      </Container> */}
+
+      {/*================================================================================*/}
+
+      {/* mdb */}
+      {/* <div className="d-flex justify-content-md-center mt-3">
+        <MDBCard style={{ width: "22rem" }} className="me-5 card-ey">
+          <MDBCardImage
+            src={process.env.PUBLIC_URL + "/images/card-img-1.jpg"}
+            width={370}
+            height={255}
+            className="square bg-primary rounded"
+            alt="..."
+          />
+          <MDBCardBody>
+            <MDBCardTitle className="fw-bolder">
+              Legal Management Services
+            </MDBCardTitle>
+            <MDBCardText>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </MDBCardText>
+          </MDBCardBody>
+        </MDBCard> */}
+
+      {/* --------------------------------------2------------------------------------- */}
+
+      {/* <MDBCard style={{ width: "22rem" }} className="ms-5 card-ey">
+          <MDBCardImage
+            src={process.env.PUBLIC_URL + "/images/card-img-1.jpg"}
+            width={358}
+            height={255}
+            className="square bg-primary rounded"
+            alt="..."
+          />
+          <MDBCardBody>
+            <MDBCardTitle className="fw-bolder">
+              Legal Function Consulting
+            </MDBCardTitle>
+            <MDBCardText>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </MDBCardText>
+          </MDBCardBody>
+        </MDBCard>
+      </div> */}
+    </>
+  );
+}
+
+export default Services;
